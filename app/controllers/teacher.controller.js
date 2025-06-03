@@ -1,3 +1,5 @@
+const Student = require("../models/student.model");
+const Attendance = require("../models/attendance.model");
 /**
  * The function `updateStudentDetails` updates student details based on the provided fields in the
  * request and returns a success message with the updated student data or an error message if something
